@@ -27,7 +27,5 @@ jobs:
           flutter-version: '2.8.1'
       - name: Flutter get Dependencies
         run: flutter pub get
-      - name: Run Flutter tests
-        run: flutter test test
       - name: Run Flutter Analyze
         run: flutter analyze
